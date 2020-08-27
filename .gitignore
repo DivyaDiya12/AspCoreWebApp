@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs
+/WebAppHello/WebAppHello/bin/Debug/netcoreapp2.1
+/WebAppHello/WebAppHello/obj
+/WebAppHello/.vs
