@@ -1,4 +1,4 @@
-name: .NET aspnetcore
+name: aspnetcore
 
 on:
   push:
