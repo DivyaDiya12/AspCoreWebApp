@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace WebAppHello
+namespace WebAppPipeLine
 {
     public class Startup
     {
@@ -27,7 +27,7 @@ namespace WebAppHello
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Welcome to Asp.Net Core Web Application!");
+                await context.Response.WriteAsync("Hello World!");
             });
         }
     }
